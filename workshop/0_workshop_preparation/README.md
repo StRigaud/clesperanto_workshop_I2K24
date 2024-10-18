@@ -1,16 +1,18 @@
 # Workshop preparation
 
-Before attending the workshop, we strongly advise to install the following of your computer
+Before attending the workshop, we strongly advise to go through the workshop preparation and install the various requierements on your computer.
 
 ## Python requierements
 
-### Mamba
+### Mamba / Conda
 
 We will require `Mamba` for installing and managing python environement and packages, we strongly advise the use of [MiniForge](). Please follow their instruction for installing it on your computer. 
 
-> ![TIPS] Additionnal explaination for mamba can be found [here](https://biapol.github.io/blog/mara_lampert/getting_started_with_mambaforge_and_python/readme.html)
+> [!TIP] 
+> Additionnal explaination for mamba can be found [here](https://biapol.github.io/blog/mara_lampert/getting_started_with_mambaforge_and_python/readme.html)
 
-> ![NOTES] `Conda` should also work but will be slower for downloading and installing the dependencies
+> [!CAUTION] 
+> `Conda` should also work but will be slower for downloading and installing the dependencies
 
 ### DevBio environment
 
