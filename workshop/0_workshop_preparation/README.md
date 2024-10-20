@@ -14,18 +14,27 @@ We will require `Mamba` for installing and managing python environement and pack
 > [!CAUTION] 
 > `Conda` should also work but will be slower for downloading and installing the dependencies
 
-### DevBio environment
+### devbio-napari environment
 
-Using mamba, please install the [devbio-napari]() package into a fresh enviroment, e.g. using this command:
+Using mamba, please install the [devbio-napari](https://github.com/haesleinhuepf/devbio-napari) package into a fresh enviroment, e.g. using this command:
 
 ```bash
 mamba create --name devbio python=3.11 devbio-napari pyqt -c conda-forge -y
 ```
 
-When the installation is done, you can activate the environment and test that all was correctly install by running the following command:
+Afterwards, please use pip to get the most recent version (which is not available via conda-forge yet):
+```bash
+pip install devbio-napari==0.11.0
+```
+
+When the installation is done, you can activate the environment...
+```bash
+mamba activate devbio
+```
+... and start Napari with the Assistant interface:
 
 ```bash
-mamba activate devbio && naparia
+naparia
 ```
 
 Napari should start with the pyclesperanto-assistant:
@@ -34,9 +43,9 @@ Napari should start with the pyclesperanto-assistant:
 
 ### Troubleshouting
 
-Any issues will be gladly answered during the workshop, do not hesite to comeforth.
+If the user interface does not look like shown above, e.g. has much less buttons, you may need to install additional packages or GPU drivers. Read this [troubleshooting section](https://github.com/clesperanto/pyclesperanto?tab=readme-ov-file#troubleshooting-graphics-cards-drivers) for more details.
 
-
+Any additional issues will be gladly answered during the workshop, do not hesite to comeforth.
 
 ## Fiji
 
@@ -47,7 +56,7 @@ clesperanto is also being developed in FIJI. Although no proper release is avail
 Start the update of your FIJI and when it is done, go to the update site list
 - `Help menu > Update` then click on `Manage update sites`
 - Click on `add unlisted site`
-- Add the following site `` 
+- Add the following site `https://sites.imagej.net/clij3` 
 - Validate the changes and restart FIJI
 
 [img]
