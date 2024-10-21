@@ -35,23 +35,6 @@ naparia
 Napari-assistant should pop-up:
 ![napari_assistant](https://github.com/haesleinhuepf/devbio-napari/raw/master/docs/screenshot.png)
 
-### (Alternative) Python 
-
-If you do not which to install the `debio-napari` package and only want pyclesperanto you can use the conda-forge recipe as follow:
-```bash
-mamba create --name pycle python=3.11 pyclesperanto -c conda-forge -y
-```
-and activate the environment
-```bash
-mamba activate pycle
-```
-
-> [!WARNING]   
-> __MAC Users__: Install also : `mamba install ocl_icd_wrapper_apple -c conda-forge -y`  
-> __Linux Users__ Install also : `mamba install ocl-icd-system -c conda-forge -y`  
-
-> [!NOTE]   
-> you can also use `pip` 
 
 ## Fiji
 
