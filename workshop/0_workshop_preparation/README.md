@@ -26,7 +26,7 @@ mamba activate devbio
 ```
 Once the enviroment activated, please use pip to get the most recent version (which is not available via `conda-forge` yet):
 ```bash
-pip install devbio-napari==0.11.0 pyclesperanto==0.14.1 --no-dependencies
+pip install devbio-napari==0.11.0
 ```
 When the installation is done, you can start Napari with the Assistant interface by running:
 ```bash
@@ -40,11 +40,11 @@ Napari-assistant should pop-up:
 Please follow this section to use pyclesperanto as a classic python library:
 Install pyclesperanto package into a fresh enviroment, e.g. using this command:
 ```bash
-mamba create --name work python=3.11 pyclesperanto -c conda-forge -y
+mamba create --name pycle python=3.11 pyclesperanto -c conda-forge -y
 ```
 and activate the environment
 ```bash
-mamba activate work
+mamba activate pycle
 ```
 You may want to also install other libraries usefull for python BioImage Analysis:
 ```bash
