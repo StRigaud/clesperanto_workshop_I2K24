@@ -65,4 +65,6 @@ Start the update of your FIJI and when it is done, go to the update site list
 - Add the following site `https://sites.imagej.net/clij3` 
 - Validate the changes and restart FIJI
 
+![Screenshot from 2024-10-21 13-41-46](https://github.com/user-attachments/assets/dd0dfa48-8dd5-4d26-b8ed-00bb5c1f32d9)
+
 
