@@ -35,10 +35,9 @@ naparia
 Napari-assistant should pop-up:
 ![napari_assistant](https://github.com/haesleinhuepf/devbio-napari/raw/master/docs/screenshot.png)
 
-## Python 
+### (Alternative) Python 
 
-Please follow this section to use pyclesperanto as a classic python library:
-Install pyclesperanto package into a fresh enviroment, e.g. using this command:
+If you do not which to install the `debio-napari` package and only want pyclesperanto you can use the conda-forge recipe as follow:
 ```bash
 mamba create --name pycle python=3.11 pyclesperanto -c conda-forge -y
 ```
@@ -46,14 +45,13 @@ and activate the environment
 ```bash
 mamba activate pycle
 ```
-You may want to also install other libraries usefull for python BioImage Analysis:
-```bash
-mamba install scikit-image jupyter pandas dask zarr -c conda-forge -y
-```
 
 > [!WARNING]   
 > __MAC Users__: Install also : `mamba install ocl_icd_wrapper_apple -c conda-forge -y`  
 > __Linux Users__ Install also : `mamba install ocl-icd-system -c conda-forge -y`  
+
+> [!NOTE]   
+> you can also use `pip` 
 
 ## Fiji
 
@@ -67,4 +65,4 @@ Start the update of your FIJI and when it is done, go to the update site list
 - Add the following site `https://sites.imagej.net/clij3` 
 - Validate the changes and restart FIJI
 
-[img]
+

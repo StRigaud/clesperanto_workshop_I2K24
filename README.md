@@ -12,7 +12,7 @@ Time limitation may not allow use to oversee all the aspect of the library and i
 - Napari-assistant:
     - Presenation of the Napari-assistant and pipeline construction
     - Hands-on: processing some image using the assistant and generate a python script
-- pyClesperanto:
+- pyclesperanto:
     - Presentation of the python clesperanto library
     - Hands-on: Exploring the library and modifying the generated code
     - Hands-on: benchmarking (who has the fastest GPU?)
