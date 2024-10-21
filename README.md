@@ -21,7 +21,7 @@ Time limitation may not allow use to oversee all the aspect of the library and i
 
 ## Requierements
 
-Please follow the workshop preparation [instruction](./workshop/0_preparation.md)
+Please follow the workshop preparation [instruction](./workshop/0_workshop_preparation/README.md)
 
 ## Acknowledgement
 
