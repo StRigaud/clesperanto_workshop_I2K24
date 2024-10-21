@@ -38,7 +38,8 @@ Napari-assistant should pop-up:
 
 ## Fiji
 
-clesperanto is also being developed in FIJI. Although no proper release is available yet, you can test running pyclesperanto script with it:
+clesperanto is also being developed in FIJI. Although no proper release is available yet, if time allows, we will test running some clesperanto script on fiji.
+Has this is an on-going development, we do not advise users to use it, but live testing during the workshop could greatly help us in this development.
 
 ### CLIJ3 update side
 
