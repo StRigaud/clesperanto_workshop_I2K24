@@ -9,9 +9,6 @@ We will require `Mamba` for installing and managing python environement and pack
 > [!TIP] 
 > Additionnal explaination for mamba can be found [here](https://biapol.github.io/blog/mara_lampert/getting_started_with_mambaforge_and_python/readme.html)
 
-> [!CAUTION] 
-> `Conda` should also work but will be slower for downloading and installing the dependencies
-
 ## Napari-assistant installation
 
 Please follow this section to use pyclesperanto with the napari-assistant.
