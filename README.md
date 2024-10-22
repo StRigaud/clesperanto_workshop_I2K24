@@ -10,14 +10,12 @@ Time limitation may not allow use to oversee all the aspect of the library and i
 ### Summary:
 - Introduction of the library and GPU-acceleration
 - Napari-assistant:
-    - Presenation of the Napari-assistant and pipeline construction
-    - Hands-on: processing some image using the assistant and generate a python script
+    - Exercise 1: [processing images using the napari assistant](./workshop/2_napari_assistant/21_naparis_assistant.md) and [export the pipeline in notebook](./workshop/2_napari_assistant/22_export_to_notebook.md)
 - pyclesperanto:
-    - Presentation of the python clesperanto library
-    - Hands-on: Exploring the library and modifying the generated code
-    - Hands-on: benchmarking (who has the fastest GPU?)
+    - Exercise 2: [pyclesperanto introduction](./workshop/3_pyclesperanto/31_introduction.ipynb) and [pipeline construction](./workshop/3_pyclesperanto/32_mini_analysis_pipeline.ipynb)
+    - Exercise 3: [benchmarking CPU vs GPU](./workshop/3_pyclesperanto/33_benchmarking.ipynb)
 - clij3 (Experimental):
-    - Running our python script in Fiji
+    - Running a [jython script](./workshop/4_clij3/mini_jython_pipeline.py) in Fiji
 
 ## Requierements
 
